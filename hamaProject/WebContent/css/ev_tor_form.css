@@ -1,0 +1,56 @@
+form { position:relative;  padding: 5%; }
+h2{margin:0 auto; text-align: center;}
+table{margin: 50px auto; }
+.torForm { margin :0 auto 30px; width:60%;  text-align: left; border:1px solid #999999}
+.torForm th {background-color : #FFF8DC;  }
+.upLoad { margin: 0 auto 100px; } 
+.upLoad { text-align: center; } 
+.macdesc { text-align :left; }
+.border {	border-bottom: 2px dashed #dddddd;}
+input {  border: none;  text-align: center;  padding: 1%;  } 
+select {	padding: 3%; border: none;}
+th {text-align:center;}
+td {padding-left : 5%;}
+textarea {resize: none; width: 88%; border: none; background: #dddddd40;}
+#button {
+    width: 15vw;
+    height: 2.8rem;
+    background-color: #000;
+    color: white;
+    font-size: 20px;
+    font-family: 'Antonio', sans-serif;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+#button:hover { background-color: #FFF8DC;  color: #000;  border:none; box-shadow: 0 0 10px;} 
+
+/* 파일업로드 버튼 css*/
+.fileUp .upload-name {
+    display: inline-block;
+    height: 40px;
+    padding: 0 120px;
+    vertical-align: middle;
+    width: 88%;
+    color: #999999;
+}
+
+.fileUp label {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    vertical-align: middle;
+    background-color: #999999;
+    cursor: pointer;
+    height: 40px;
+    margin-top: -40px;
+}
+.fileUp input[type="file"] {  /* 파일 필드 숨기기 */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip:rect(0,0,0,0);
+  border: 0;
+}

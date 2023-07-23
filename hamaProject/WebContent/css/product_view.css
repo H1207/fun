@@ -1,0 +1,40 @@
+   .container{margin: 0 auto;  width: 70%; display:flex; 
+      justify-content: space-around; align-items: center; 
+     }
+   .pdtImg {width:300px;}
+   .pdtImg > a > img {width : 100%;}
+   .desc {padding: 20px;} 
+   #desc {margin-bottom:5%;}
+   .desc > p {padding: 3% 0 ;}
+   .desc > strong {padding: 3% 0 ;}
+   #cnt {width : 20px; text-align:right;}
+   .buyBtn{ 
+    margin-top:5%; width:500px; height: 30px; 
+   }
+   #product_name{font-size: 30px; }
+   .allBtn {    
+	    width:15vw;
+	    height: 2.5rem;
+	    background-color: #000;
+	    color: white;
+	    font-size: 15px;
+	    font-family: 'Antonio', sans-serif;
+    }
+    .allBtn:hover {background-color: #FFF8DC;  color: #000;  border:none; box-shadow: 0 0 10px;}
+    #buyC { 
+	    font-size: 15px;	color: #fff;	 width: 160px;
+	    height: 40px; border: none; background-color: #999999;}
+    #buyD {   font-size: 15px;	color: #fff;	 width: 160px;
+    	height: 40px; border: none; background-color: #666666;}
+    #buyD:hover { background-color: #FFF8DC;  color: #000;  border:none; box-shadow: 0 0 10px;}
+    #buyC:hover { background-color: #FFF8DC;  color: #000;  border:none; box-shadow: 0 0 10px;}
+    
+    #chkBtn {
+    	border:none;
+    	background-color: ##dddddd;
+    	color:#000;
+    	font-size: 1em;
+    }
+    #cnt {	border:none; background-color: #dddddd40;}
+    
+   
