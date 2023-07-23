@@ -6,7 +6,6 @@
 - 프로젝트명: 하마롱
 - 배포 URL: http://forb123.cafe24.com/hamaProject/
 - 개발 기간: 2023년 1월 21일부터 2023년 2월 21일까지 
-- 개발자: Your Name
 - 사용된 기술 스택
 - Front-end: HTML5, CSS3, JavaScript
 - Back-end: Java, JSP
